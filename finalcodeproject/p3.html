@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>GROUPRM</title>
+<link rel="stylesheet"href="style.css">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<header>
+<div class="logo">
+<img src="img/pic.png" alt="">
+</div>
+<i class="fa fa-bars menu-toggle"></i>
+<ul class="nav">
+<li><a href="#">Home</a>
+<ul style="left:0px;">
+<li><a href="#">Galleries</a></li>
+<li><a href="#">Openings</a></li>
+</ul>
+</li>
+<li><a href="#">About</a></li>
+
+<li><a href="#">Dashboard</a></li>
+<li><a href="#"class="Logout">logout</a></li>
+</ul>
+</li>
+</ul>
+</header>
+<body>
+<style>
+body{
+margin:65px;
+padding:0px;}
+h3{
+color:red;
+}
+h4{
+text-align:center;
+color:green;
+}
+h5{
+color:blue;
+text-align:left;
+}
+p{
+text-align:left;
+}
+</style>
+<h3>GroupRM</h3>
+<p style="color:blue";>GROUP REVENUE MANAGEMENT</p>
+<img src="img/GroupRM.png">
+<p>GroupRM is an innovative solution that helps airlines to effectively control group traffic. It aids in increasing sales by enabling the group analysts to better manage and optimize group sales.</p>
+<h4>FEATURES</h4>
+<h5>GROUP REQUESTOR INTERFACE </h5>
+<p style="text-align:justify">This interface provides a customizable ad- hoc or series group request form for the different types of requesters like direct customers, travel agents, corporate travel managers, airline sales force and group desk analyst.</P>
+<h5>GROUP PROCESSING INTERFACE</h5>
+<p style="text-align:justify">This interface provides the analyst in the airline group desk to monitor incoming group request, evaluate them, provide fare quotes and respond back to the customers.</p>
+<h5>GROUP TICKETING</h5>
+<p style="text-align:justify"> This module interfaces with the airline reservation system to create a group PNR and subsequently insert names along with the terms and conditions. The requestor can directly enter the names and details for group booking.</p>
+ <h2>Comment Here....</h2>
+<div id="commentbackground">
+
+<p id="para"></p>
+
+<form>
+<textarea id="words" rows="5" cols="200">     </textarea>
+<input type="button" onclick="getwords()" class="btn btn-big" value="submit" />
+</form>
+
+<script type="text/javascript">
+function getwords(){
+text = words.value;
+document.getElementById("para").innerHTML = text
+document.getElementById("words").innerHTML = "enter"
+}
+</script>
+</div><br>
+<h1>Share on..</h1>
+<a href="https://twitter.com/share?url=<URL>&text=<TEXT>&via=<VIA>" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+</a>
+
+<a href="https://plus.google.com/share?url=<BTN>" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+</a>
+
+<a href="https://facebook.com/share?url=<URL>" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+</a>
+<a href="mailto:?subject=<SUBJECT&body=<BODY>" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+</a><br><br>
+<div class="foot">
+</div>
+</body>
+</html>
